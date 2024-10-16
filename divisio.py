@@ -11,15 +11,15 @@ __date__ = "2024/10/16"
 
 print ('Quins dos nomre bols dividir:')
 
-print('Quin es el divident?')
-divident = int(input())
+print('Quin es el dividend?')
+dividend = int(input())
 
 print('Quin es el divisor?')
 divisor = int(input())
 
-quocient = divident//divisor
-residu = divident%divisor
+quocient = dividend//divisor
+residu = dividend%divisor
 
-print(f'La Divisió és: {divident}/{divisor}')
-print('El Quocient és:',quocient,)
-print('El Residu és:',residu,)
+print(f'Divisió: {dividend}/{divisor}')
+print('Quocient:',quocient,)
+print('Residu:',residu,)
