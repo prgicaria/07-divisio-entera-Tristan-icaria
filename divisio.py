@@ -20,6 +20,6 @@ divisor = int(input())
 quocient = divident//divisor
 residu = divident%divisor
 
-print('La divioso és:',divident,'/',divisor)
-print('El quocient és:',quocient,)
-print('El residu és:',residu,)
+print(f'La Divisió és: {divident}/{divisor}')
+print('El Quocient és:',quocient,)
+print('El Residu és:',residu,)
